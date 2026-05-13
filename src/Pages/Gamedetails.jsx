@@ -123,7 +123,7 @@ return (
                 <div className="player-logo">
                   <img src="/assets/img/tournament/1-1.png" alt="img" />
                 </div>
-                <h2 className="game-info-title">                  <a href={GameDetails.game_url}>PLAY NOW</a>
+                <h2 className="game-info-title">                  <a href={GameDetails.game_url} target="_blank">Details</a>
 </h2>
                 <div className="game-meta-list">
                   <span>{GameDetails.release_date}</span> <span>{GameDetails.genre}</span> <span>{GameDetails.platform}</span>
