@@ -98,10 +98,9 @@ function Component1() {
                         <i className="far fa-pencil" />
                       </div>
                       <div className="form-btn col-12">
-                        <button className="th-btn">
-                         Send Message
-                          <i className="fa-solid fa-arrow-right ms-2" />
-                        </button>
+                        
+                         <a href="#" className="th-btn">Send Message</a>
+                        
                       </div>
                     </div>
                     <p className="form-messages mb-0 mt-3" />
